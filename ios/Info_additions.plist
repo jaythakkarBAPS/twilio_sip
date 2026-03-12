@@ -1,0 +1,17 @@
+<!-- 1. Add Microphone and VoIP permissions -->
+<key>NSMicrophoneUsageDescription</key>
+<string>This app needs access to the microphone for calls.</string>
+<key>UIBackgroundModes</key>
+<array>
+    <string>audio</string>
+    <string>voip</string>
+    <string>fetch</string>
+    <string>remote-notification</string>
+</array>
+
+<!-- 2. Enable Push Notifications in Xcode Capabilities:
+     - Background Modes -> Audio, AirPlay, and Picture in Picture
+     - Background Modes -> Voice over IP
+     - Background Modes -> Remote notifications
+     - Push Notifications
+-->
